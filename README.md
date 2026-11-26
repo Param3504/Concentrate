@@ -27,3 +27,9 @@ Early stage. Scaffolding and the focus service come first, then the app picker, 
 ## Build
 
 Open the project in Android Studio (Hedgehog or newer), let Gradle sync, and run on a device with Android 8.0 (API 26) or newer.
+
+## Permissions
+
+- `INTERNET` is required to route traffic through the focus VPN.
+- `QUERY_ALL_PACKAGES` lists installed apps in the picker. Google Play restricts this permission, so a public release would need a declared use or a narrower approach.
+- The VPN consent dialog appears the first time you start a session.
