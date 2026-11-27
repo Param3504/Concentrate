@@ -26,6 +26,10 @@ Early stage. Scaffolding and the focus service come first, then the app picker, 
 
 ## Build
 
+[![Build](https://github.com/Param3504/Concentrate/actions/workflows/build.yml/badge.svg)](https://github.com/Param3504/Concentrate/actions/workflows/build.yml)
+
+Every push and pull request builds a debug APK on GitHub Actions. Download it from the workflow run's artifacts.
+
 Open the project in Android Studio (Hedgehog or newer), let Gradle sync, and run on a device with Android 8.0 (API 26) or newer.
 
 ## Permissions
